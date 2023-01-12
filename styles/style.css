@@ -106,7 +106,7 @@ color: rgba(27, 207, 141, 0.882);
     width: 54.5px;
     height: 50px;
     border-radius: 20%;
-    padding-left: 80px;
+    padding-left: 90px;
 }
 .sidebar{
     width: 50px;
@@ -126,7 +126,7 @@ color: rgba(27, 207, 141, 0.882);
     margin-bottom: 30px;
 }
 .content-container{
-    background-color: cyan;
+    background-color: rgb(5, 99, 99);
     margin-left: 55px;
     height: calc(100vh - 50px);
 }
@@ -139,7 +139,6 @@ color: rgba(27, 207, 141, 0.882);
 }
 .featured-content{
     height: 40vh;
-    background-color: blue;
 }
 .featured-title{
     width: 200px;
