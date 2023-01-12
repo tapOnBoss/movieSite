@@ -5,3 +5,38 @@
 body{
     font-family: 'Crimson Text', serif;
 }
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+}
+.logo-container{
+    flex: 1;
+    background-color: rgba(255, 0, 0, 0.592);
+}
+.logo{
+    font-family: 'Crimson Text', serif;
+}
+.menu-container{
+    flex: 6;
+    background-color: rgba(255, 0, 0, 0.492);
+}
+.profile-container{
+    flex:2;
+    background-color: red;
+}
+.sidebar{
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
