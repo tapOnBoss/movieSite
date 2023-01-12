@@ -15,19 +15,29 @@ body{
     display: flex;
     align-items: center;
     background-color: black;
-    color: rgba(27, 207, 141, 0.882);
-    padding: 0 50px;
+    padding: 10 58px;
     height: 100%;
+    color: white;
+}
+.navbar-container li:hover{
+    color: rgba(27, 207, 141, 0.882); 
+}
+.navbar-container.fa-solid.fa-book-skull{
+color: rgba(27, 207, 141, 0.882); 
 }
 .logo-container{
     flex: 1;
 }
 .logo{
-    font-size: 30px;
+    font-size: 24px;
     color: rgba(218, 165, 32, 0);
+    padding-left: 5px;
 }
 .logo-container h1.logo:hover{
     color: gold;
+    display: flex;
+    flex-direction: column;
+    height: 10px;
 }
 .profile-text-container i{
     color:rgba(48, 206, 48, 0.206);
@@ -49,22 +59,54 @@ body{
     font-weight: bold;
 }
 /* Categories is Hidden for futher Updates*/
-.categories-container{
+/* .categories-container{
     flex: 3;
-} 
+}  */
 .profile-container{
     flex:2;
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+.profile-text-container{
+    margin: 0 10px;
+    color: white;
+    border-radius: 30%;
 }
 .profile-picture{
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    object-fit: cover;
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.toggle-icon:hover{
+    background-color: rgba(128, 0, 128, 0);
+    color: rgb(125, 121, 121);
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 .site-picture{
     width: 54.5px;
     height: 50px;
     border-radius: 20%;
+    padding-left: 80px;
 }
 .sidebar{
     width: 50px;
@@ -72,4 +114,33 @@ body{
     background-color: black;
     position: fixed;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 5px;
+}
+.left-menu-icon{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.content-container{
+    background-color: cyan;
+    margin-left: 55px;
+    height: calc(100vh - 50px);
+}
+.content-container h3, h4, h5{
+    color: gold;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 8px;
+}
+.featured-content{
+    height: 40vh;
+    background-color: blue;
+}
+.featured-title{
+    width: 200px;
 }
