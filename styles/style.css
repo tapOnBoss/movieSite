@@ -23,6 +23,8 @@ body{
 }
 .logo{
     font-family: 'Crimson Text', serif;
+    font-size: 30px;
+    color: goldenrod;
 }
 .menu-container{
     flex: 6;
