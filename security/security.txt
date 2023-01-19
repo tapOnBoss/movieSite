@@ -1,0 +1,24 @@
+    .env: 
+    This file would typically contain environment variables that are used to configure your application, 
+    such as the database URL, secret keys, and other sensitive information.
+
+    AWS.js: 
+    This file would likely contain code that interfaces with various Amazon Web Services (AWS) such as Elastic Beanstalk, S3, and CloudWatch.
+
+    crypto-js.js: 
+    
+    This file would likely contain code that uses the crypto-js library to encrypt and decrypt sensitive data, such as user passwords.
+
+    GCM.js: 
+    This file would likely contain code that uses the GCM (Galois/Counter Mode) to encrypt sensitive data, such as user passwords.
+
+    index.js: 
+    This file would likely contain code that exports the functionality from the other files in the security folder, 
+    making it easy to use them in other parts of your application.
+
+    S3.js: 
+    This file would likely contain code that interfaces with Amazon S3, a cloud storage service, to securely store user data.
+
+    user.js: 
+    This file would likely contain code that handles user authentication and authorization, such as creating new users, logging in, 
+    and managing user data.

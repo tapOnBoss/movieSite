@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Crimson Text', serif;
+background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(182, 195, 105, 0.159)), url('../image/background.jpeg'); background-repeat: no-repeat;background-size: cover;
 }
 .navbar{
     width: 100%;
@@ -18,6 +19,8 @@ body{
     padding: 10 58px;
     height: 100%;
     color: white;
+    
+    background: linear-gradient(to left, rgba(0,0,0,0),rgba(182, 195, 105, 0.573)), url('../image/power.jpg'); background-repeat: no-repeat;background-size: cover;
 }
 .navbar-container li:hover{
     color: rgba(27, 207, 141, 0.882); 
@@ -119,6 +122,9 @@ color: rgba(27, 207, 141, 0.882);
     align-items: center;
     padding-top: 100px;
     padding-left: 5px;
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(182, 195, 105, 0.573)), url('../image/power.jpg'); background-repeat: no-repeat;background-size: cover;
+    border-radius: 0%;
+    border: none;
 }
 .left-menu-icon{
     color: white;
@@ -126,20 +132,97 @@ color: rgba(27, 207, 141, 0.882);
     margin-bottom: 30px;
 }
 .content-container{
-    background-color: rgb(5, 99, 99);
+    background-color: rgba(239, 247, 198, 0.944);
     margin-left: 55px;
     height: calc(100vh - 50px);
 }
-.content-container h3, h4, h5{
-    color: gold;
-    font-size: 18px;
+.content-container h2, h3, h4, h5{
     font-weight: bold;
     font-style: italic;
-    word-spacing: 8px;
+    word-spacing: 2px;
+    color: rgb(2, 29, 29);
 }
 .featured-content{
-    height: 40vh;
+    height: 100vh;
+    padding: 50px;
+    /* background image of the site*/
+    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(182, 195, 105, 0.159)), url('../image/background.jpeg'); background-repeat: no-repeat;background-size: cover;
 }
 .featured-title{
     width: 200px;
+    height: 50px;
 }
+.featured-desc{
+    width: 500px;
+    color: gray;
+    margin: 30px 0;
+}
+.featured-button:hover{
+    background-color: rgba(27, 207, 141, 0.882);
+    border-radius: 50%;
+
+    inline-size: 16.5vmin;
+    block-size: 7.5vmin;
+
+    border: 2.5vmin solid rgba(119, 255, 51, 0.359);
+    border-image-slice: 0.1px;
+    
+    /*  leverage cascade for cross-browser gradients  */
+    border-image-source: linear-gradient(
+    hsl(100 100% 60%),
+    50%,
+    hsl(200 100% 60%)
+    );
+    border-image-source: radial-gradient(
+    hsl(100 100% 60%),
+    75%,
+    hsl(200 100% 60%)
+    );
+    border-image-source: conic-gradient(
+    hsl(100 100% 60%), 
+    hsl(200 100% 60%),
+    hsl(351, 59%, 42%, 0.58),
+    );
+    
+    display: grid;
+    place-content: center;
+    padding: 1.5ch;
+    font-size: 2.5vmin;
+    border-radius: 50%;
+}
+.featured-button{
+    background-color: rgba(250, 235, 215, 0);
+    border-color: rgba(240, 248, 255, 0);
+    color: gold;
+    font-size: large;
+}
+.movie-list-title{
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(182, 195, 105, 0.73)), url('../image/power.jpg'); background-repeat: no-repeat;background-size: cover;
+    border: 1px goldenrod ridge;
+    border-radius: 10%;
+}
+.movie-list-item-img{
+    width: 250px;
+}
+.recomendation{
+    background-color: rgba(250, 235, 215, 0.516);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 25vh;
+    border: 5px ridge silver;
+}
+.recomendation h2{
+    border: ivory 5px ridge;
+    width: 590px;
+    background-color: rgba(137, 43, 226, 0.287);
+}
+.side-description h3{
+}
+
+body{
+    background-image: url("image/bg.jpg");
+    background-size: cover;
+    font-family: 'MedievalSharp', cursive;
+}
+

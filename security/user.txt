@@ -1,0 +1,28 @@
+// -- bulletPoints --
+
+need to make some changes to the code and add new functionality to create a fully functional movie site.
+Here are some steps that you can take to create a movie site:
+
+    Define your movie model: You'll need to create a new Mongoose model for your movie data, including properties like title, release date, cast, etc.
+
+    Implement a movie database: You'll need to create a new MongoDB database to store your movie data, and implement CRUD (create, read, update, delete) operations for the movie data.
+
+    Create a front-end: You'll need to create a front-end for your movie site using HTML, CSS, and JavaScript. This front-end should include pages for displaying movie information, browsing movies, searching for movies, and more.
+
+    Add user authentication: You'll need to add user authentication to your movie site so that users can create accounts, log in, and manage their own movie data.
+
+    Add movie search functionality: You'll need to implement a search function that allows users to search for movies by title, cast, release date, or other criteria.
+
+    Add movie recommendation functionality: You'll need to implement a recommendation function that suggests movies to users based on their viewing history and other data.
+
+    Add movie rating functionality: You'll need to implement a rating function that allows users to rate movies they've watched.
+
+    Add movie commenting functionality: You'll need to implement a commenting function that allows users to post comments on movies.
+
+    Style the site with a movie theme: You'll need to style your site to give it a movie-themed look and feel, you can use a theme such as medieval XV century.
+
+    Deploy the site to a server: You'll need to deploy your movie site to a web server, such as AWS Elastic Beanstalk, so that it can be accessed by users on the internet.
+
+    link all used code
+
+Building a complete movie site is a complex process that requires knowledge of multiple programming languages, frameworks, and technologies, and it's important to seek help from professional developers when building a production ready application. 
