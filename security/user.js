@@ -77,9 +77,8 @@ router.post('/login', (req, res) => {
           user: {
             id: user.id,
             email: user.email
-          }
-     });
-   });
- });
-});
+          } });
+        });
+      });
+    });
 
